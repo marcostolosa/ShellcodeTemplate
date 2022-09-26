@@ -1,6 +1,6 @@
 
 #include <windows.h>
-#include <macros.h>
+#include <Macros.h>
 
 UINT_PTR GetRIP( VOID );
 

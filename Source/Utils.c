@@ -1,7 +1,7 @@
-#include <utils.h>
-#include <macros.h>
+#include <Utils.h>
+#include <Macros.h>
 
-SEC( text, B ) UINT_PTR THashString( LPVOID String, UINT_PTR Length )
+SEC( text, B ) UINT_PTR HashString( LPVOID String, UINT_PTR Length )
 {
     ULONG	Hash = 5381;
     PUCHAR	Ptr  = String;
